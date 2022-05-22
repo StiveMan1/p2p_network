@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -lpthread -lboost_thread -g CMakeFiles/network.dir/main.cpp.o CMakeFiles/network.dir/My/Server.cpp.o CMakeFiles/network.dir/My/PeerToPeer.cpp.o CMakeFiles/network.dir/My/Protocol.cpp.o CMakeFiles/network.dir/My/Client.cpp.o -o network   -L/home/stiveman1/Desktop/Projects/network/lib/json  -Wl,-rpath,/home/stiveman1/Desktop/Projects/network/lib/json 

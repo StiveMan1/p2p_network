@@ -1,0 +1,7 @@
+3
+rental 4
+rental_id staff_id last_update customer_id
+payment 2
+rental_id payment_date
+customer 2
+customer_id active

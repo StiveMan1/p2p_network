@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSKR-network.a CMakeFiles/SKR-network.dir/src/Client.cpp.o CMakeFiles/SKR-network.dir/src/PeerToPeer.cpp.o CMakeFiles/SKR-network.dir/src/Protocol.cpp.o CMakeFiles/SKR-network.dir/src/Server.cpp.o
+/usr/bin/ranlib libSKR-network.a

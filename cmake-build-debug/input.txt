@@ -1,0 +1,31 @@
+3
+rental 4
+staff_id rental_id customer_id last_update
+customer 2
+customer_id active
+payment 2
+payment_date rental_id
+
+
+
+1
+film 3
+title rental_rate release_year
+
+
+7
+film 4
+title release_year film_id rating
+payment 2
+amount rental_id
+rental
+rental_id inventory_id customer_id
+inventory
+inventory_id film_id
+customer
+customer_id first_name
+film_actor
+film_id  actor_id
+actor
+actor_id first_name
+

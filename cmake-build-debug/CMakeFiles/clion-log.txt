@@ -1,0 +1,6 @@
+/home/stiveman1/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5080.54/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/stiveman1/Desktop/Projects/network
+-- Using the single-header code from /home/stiveman1/Desktop/Projects/network/lib/json/single_include/
+-- Connected: nlohmann_json
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/stiveman1/Desktop/Projects/network/cmake-build-debug
