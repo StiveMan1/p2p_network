@@ -38,7 +38,7 @@ void Server::close_server() {
 
 void *Server::init_server(void *arg) {
     printf("Server running.\n");
-    auto *server = (struct Server *) arg;
+    auto *server = (Server *) arg;
     auto *address = (struct sockaddr *) &server->_address;
     auto address_length = (socklen_t) sizeof(server->_address);
     while (server->is_running) {
@@ -119,11 +119,10 @@ std::string Server::get_protocol(const std::string &msg, unsigned char flag) {
         client.make_request(ip_server);
         flag_res = 0;
         std::string data = client.get_request(msg, flag, &flag_res);
+        client.close_request();
         if ((flag_res & NET_ERROR) == 0) {
-            client.close_request();
             return data;
         }
-        client.close_request();
     }
     throw P2PError();
 }

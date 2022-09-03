@@ -3,7 +3,6 @@ project(p2p_network)
 
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -lpthread")
-SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -lboost_thread")
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -lgmp")
 
 set(CMAKE_CXX_STANDARD 14)
